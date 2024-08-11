@@ -47,11 +47,13 @@ def invoke_agent(agent_executor):
     sql_query = extract_sql_query(str(response))
     return response, sql_query
 
+
 def extract_sql_query(response_text):
-    # Regex to extract SQL query; assumes queries end with semicolon within a single text block
-    match = re.search(r"(SELECT .*?;)", response_text, re.S)
-    if match:
-        return match.group(1)
+    # Regex to capture SQL blocks enclosed within markdown code fences with the `sql` identifier
+    pattern = r"```sql(.*?)```"
+    matches = re.findall(pattern, response_text, re.DOTALL)
+    if matches:
+        return matches[0].strip()  # Return the first match, strip any excess whitespace
     return "No SQL Query Found"
 
 def run_experiment(options, exp_name, option_name, fixed_model, fixed_agent_type, fixed_top_k, fixed_max_iterations, fixed_max_execution_time):
