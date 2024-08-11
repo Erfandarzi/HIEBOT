@@ -6,7 +6,7 @@ from db_setup import setup_database
 from load_files_to_db import load_files_to_db
 from langchain_openai import ChatOpenAI
 from langchain_community.agent_toolkits import create_sql_agent
-
+import os
 def time_function(func):
     def wrapper(*args, **kwargs):
         start_time = time.time()
@@ -77,9 +77,13 @@ def run_experiment(options, exp_name, option_name, fixed_model, fixed_agent_type
         })
 
     df = pd.DataFrame(results)
-    df.to_csv(f'{exp_name}.csv', index=False)
+    file_path = f'{exp_name}.csv'
+    # Check if file exists to decide whether to write header
+    if not os.path.isfile(file_path):
+        df.to_csv(file_path, index=False)  # Create new file and write header
+    else:
+        df.to_csv(file_path, mode='a', index=False, header=False)  # Append without header
 
- 
 
 def main():
     models = ['gpt-4o', 'gpt-4o-mini']
