@@ -18,7 +18,6 @@ from langchain.schema.runnable.config import RunnableConfig
 from langchain.prompts import ChatPromptTemplate
 import asyncio
 
-import chainlit as cl
 
 def main():
     setup_environment()
@@ -30,8 +29,11 @@ def main():
 
     agent_executor.invoke(
         {
-            "input": '''I care about one feature called 20:BayleyIIICognitiveComposite which table I can find it?'''
+            "input": '''
+Calculate the odds ratio for poor outcomes (defined as MRI score > 2)
+based on cord blood pH levels'''
+
         }
     )
 if __name__ == "__main__":
-    main()
+    main()  

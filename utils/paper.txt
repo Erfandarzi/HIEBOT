@@ -1,0 +1,423 @@
+Perez JMR et al.
+64 Rev Assoc Med Bras 2017; 63(1):64-69
+ORIGINAL ARTICLE
+Clinical hypoxic-ischemic encephalopathy score of the
+Iberoamerican Society of Neonatology (Siben): A new proposal
+for diagnosis and management
+José Maria Rodriguez Perez1,2*, Sergio G. Golombek1,3,4, Augusto Sola1,2,4
+1Sociedad Iberoamericana de Neonatología (Siben), Dana Point, CA, USA
+2Centro Internacional de Neurodesenvolvimento Neonatal (CINN), São Paulo, SP, Brazil
+3Maria Fareri Children’s Hospital at Westchester Medical Center, New York Medical College, Valhalla, NY, USA
+4New York Medical College, Valhalla, NY, USA
+Summary
+Study conducted at Centro Internacional
+de Neurodesenvolvimento Neonatal
+(CINN), São Paulo, SP, Brazil
+Article received: 4/15/2016
+Accepted for publication: 5/21/2016
+*Correspondence:
+Address: Rua Vargem Grande, 50
+São Paulo, SP – Brazil
+Postal code: 03316-020
+joseperezneo@gmail.com
+http://dx.doi.org/10.1590/1806-9282.63.01.64
+Hypoxic ischemic encephalopathy is a major complication of perinatal asphyxia, with high morbidity, mortality and neurologic sequelae as cerebral palsy,
+mostly in poor or developing countries. The difficulty in the diagnosis and
+management of newborns in these countries is astonishing, thus resulting in
+unreliable data on this pathology and bad outcomes regarding mortality and
+incidence of neurologic sequelae. The objective of this article is to present a new
+clinical diagnostic score to be started in the delivery room and to guide the
+therapeutic approach, in order to improve these results.
+Keywords: asphyxia, hypoxic ischemic encephalopathy, Siben Neurological Score.
+Introduction
+Hypoxic ischemic encephalopathy (HIE) is a disease with
+a strong potential to cause cerebral palsy. Depending on
+its severity, it may turn into an emotional, social, and
+economic tragedy for the individual and their entire family, as well as society as a whole.
+The pathophysiology of HIE has been described in
+detail, with a primary phase leading to neuronal apoptosis1 and a secondary reperfusion phase that occurs about
+six hours after the hypoxic ischemic insult, with various
+types of response that may lead to a secondary neuronal
+injury, compatible with the presence of neurologic sequelae in the newborn.
+HIE is characterized by neurological symptoms of
+variable severity, and is classified as mild, moderate and
+severe. The condition is accompanied by the involvement
+of one or more organs and may lead to multiple organ
+failure. The symptoms vary according to the severity of
+the disease and whether there is central nervous system
+involvement, ranging from deterioration of wakefulness
+up to seizures and coma; or from a multi-organ point of
+view, involvement of the digestive tract (from vomiting
+up to symptoms of necrotizing enterocolitis), the urinary
+tract (from oliguria up to acute renal failure5
+), the respiratory system (pulmonary hemorrhage up to pulmonary
+hypertension2
+) and the cardiovascular system, often with
+sinus bradycardia3
+ (predominance of the parasympathetic system), and, finally, metabolic disorders (calcium,
+glucose and magnesium4
+). All of these changes may aggravate the involvement of the central nervous system.
+Currently, perinatal asphyxia associated with moderate or severe HIE, which is its main complication, affects
+between 1-2/1,000 live births in developed countries and
+is estimated at affecting between 10-20/1,000 live births
+in poor or developing countries,6
+ being responsible for
+1/3 of neonatal mortality in these countries. However, we
+believe that the actual incidence of HIE in poor and/or
+developing countries is unknown. What we do know is
+that in Brazil 13 to 15 newborns die every day as a result
+of asphyxia, according to a study by the resuscitation
+committee of the Brazilian Pediatric Society.7
+ There are
+several factors making us unaware of our HIE rate, as
+published by Perez.8
+ These include the difficulty presented by health teams to assess the newborns neurologically,
+or a belief that an Apgar score of > 5 at 5’ or 10’ is sufficient
+and necessary to rule out the diagnosis of HIE. A total
+lack of preparedness among health teams in relation to
+the use of neurological scores for the newborn or the 
+Clinical hypoxic-ischemic encephalopathy score of the Iberoamerican Society of Neonatology (Siben): A new proposal for diagnosis and management
+Rev Assoc Med Bras 2017; 63(1):64-69 65
+total lack of their use at some centers is prevalent. These
+are some of the factors leading us to believe that the actual incidence of HIE is higher than that already published.
+Having an easy-to-use clinical evaluation mechanism from
+the moment of birth would favor the obtainment of a
+more realistic notion of the importance of this pathology
+in Brazil and in all developing countries, as well as a better therapeutic outcome for such patients.
+Objective
+To present a simple clinical neurological score for hypoxic ischemic encephalopathy developed by the
+Iberoamerican Society of Neonatology (Siben) and a flow
+chart to guide the diagnosis and management of newborns
+who have suffered some degree of asphyxia.
+Diagnosis of HIE and description of
+the Siben HIE score
+Considering a maternal obstetric history with the identification of hypoxic ischemic insult (e.g. umbilical cord
+prolapse, uterine rupture) associated with the presence
+of a low Apgar score and umbilical cord pH with acidosis
+≤ 7.1 leads us to a diagnosis of HIE. However, proper neurological clinical examination of the newborn is essential
+to confirm the diagnosis.
+In order to systematize this neurological assessment
+of newborns, several neurological scores have been created
+for newborns, such as the currently available Sarnat and
+Sarnat,9
+ Thompson,10 and Garcia-Alix11 scores, as well as
+others. None of these have been applied since the first minutes of life, and some of them are complex and/or use
+supplementary exams.
+In our view, a neurological score, including only
+clinical aspects that can be started as soon as we finish
+the Apgar score, is essential. Therefore, we have developed
+the neurological score presented in Table 1.
+This scale assesses ten clinical aspects and is very
+simple to perform. As HIE has been previously classified
+as mild, moderate or severe, each item evaluated varies
+according to the degree of severity. For example, if spontaneous activity is absent, the corresponding item is found
+in severe HIE (Table 1). A point is given to every item that
+corresponds to a level in the Siben score, with the diagnosis of HIE considered as strongly suspect at a certain
+level, in the presence of three points or more. In the event
+of finding items at different levels, the level with the most
+items found will predominate. For example, if a slight
+change in the level of consciousness, such as being hyperalert, and a change in posture with mild distal flexion
+and weak suction are found in a newborn with a history
+of a hypoxic ischemic insult, we could classify this newborn
+as presenting mild HIE. However, if convulsions, bradycardia, hypotonia, and a weak Moro reflex are presented
+in association, we have a case in which signs of moderate
+HIE predominate over the mild condition, and this should
+be the established diagnosis. In short, the mild, moderate
+or severe HIE diagnosis will predominate according to
+the highest number of items (always above three) found
+in the corresponding level.
+The neurological score that we have developed is
+shown in Table 1, and is called the HIE Score of the
+Iberoamerican Society of Neonatology.
+We use the Siben Neurological Score for all infants
+who have an Apgar ≤ 5 in the first, fifth or tenth minute,
+and we begin using it in the delivery room as soon as the
+Apgar score is concluded. A diagnosis made as early as
+possible will guide the treatment and possibly lead to a
+more favorable outcome in the clinical case.
+Unlike other neurological scores, our tool only relies
+on clinical criteria for the score, which greatly facilitates
+clinical monitoring and, in our opinion, the early diagnosis or early suspected diagnosis of HIE. In many centers
+with high birth rates, prompt evaluation by a pediatric
+neurologist with experience in neonatology, the possibility of performing electroencephalography (EEG) with an
+integrated amplitude or an early conventional EEG, a very
+early magnetic resonance imaging (MRI) examination
+and laboratory tests (umbilical cord blood gases, creatine
+phosphokinase – CPK, lactic dehydrogenase – LDH, and
+others) are not available in the first hours of life or even
+afterwards, especially in poor or developing countries.
+For the implementation of this clinical score it is
+important to train the medical and paramedical teams,
+as well as to print and distribute a copy of the score to all
+team members, and posting it in all sectors of the neonatology unit.
+Validation of the score
+No one argues that clinical assessment is essential in
+neonatology, and our score adds the possibility of a better clinical assessment of newborns from the delivery
+room onwards. To date, we have used this score in three
+neonatal units to assess 26 newborns with a gestational
+age of over 35 weeks and suspected diagnosis of HIE while
+in the delivery room. All of these newborns had an Apgar
+score 1’ ≤ 3 and presented a Siben score of 3 or more points
+in the delivery room after completion of the Apgar score,
+or were sent to the neonatal intensive care unit (NICU)
+with strong suspicion of HIE. The diagnosis was confirmed
+in all newborns based on the development of the clinical 
+Perez JM
+R et al
+.
+66
+ Rev
+Assoc Med Bras 2017; 63(1):64-69
+TABLE 1 Siben Neurological Score.
+HIE Level of
+consciousness
+Spontaneous
+activity
+Posture Tonus Suction Moro reflex Pupils Heart rate Breathing Convulsion Total
+points
+Mild Hyperalert Normal Mild distal flexion Normal Weak Strong Mydriasis Tachycardia Spontaneous Absent
+Moderate Lethargy Decreased Marked distal flexion Hypotonia Weak or
+absent
+Weak Miosis Bradycardia Periodic Frequent
+Severe Stupor/Coma Not present Decerebration Flaccidity Not
+present
+Not present Diverted/
+Non-reactive
+Variable Apnea Infrequent
+HIE: hypoxic ischemic encephalopathy.
+Clinical hypoxic-ischemic encephalopathy score of the Iberoamerican Society of Neonatology (Siben): A new proposal for diagnosis and management
+Rev Assoc Med Bras 2017; 63(1):64-69 67
+condition (emergence of seizures, apnea, bradycardia or
+tachycardia, pupil changes, change in tonus, and eventual death) and all showed high levels of CPK and LDH.
+All of the newborns underwent therapeutic hypothermia.
+Seven newborn babies progressed to death (27%) and the
+remaining 19 underwent MRI after 7 days of life. Six infants did not show any alterations in the MRI examination,
+ten infants had some degree of damage to the basal ganglia and three newborns had damage to the gray matter.
+The alterations presented by these 13 newborns were
+compatible with the diagnosis of hypoxic ischemic insult
+with subsequent progression to HIE (Table 2).
+All of the assessors were unanimous in reporting ease
+of use from the delivery room onwards and in the sequential neurological assessment of the newborn, greatly facilitating the diagnosis of HIE and progressive HIE, in
+which the patient shows progressive clinical neurological
+deterioration that can progress from mild to serious symptoms in a few hours.12 It is very likely that in every center
+in which this clinical score is implemented there will be
+no more undiagnosed cases, with at least a suspected
+diagnosis of HIE, and we can use therapeutic measures
+sooner, including therapeutic hypothermia, preventing
+delayed diagnosis and administration of the appropriate
+therapy. The next step in the evaluation and validation
+will be to compare the statistics and the monitoring of
+patients managed using this score.
+With the advances that have occurred in recent years
+to improve neonatal outcomes in newborns with HIE, the
+establishment of an algorithm for the management of
+HIE is fundamental, in addition to prevention and early
+diagnosis, as described below.
+HIE management algorithm
+Seeking to facilitate the management of newborns with
+suspected HIE and/or diagnosed with HIE, we have developed
+an algorithm to guide the management of newborns from
+the delivery room onwards in different clinical situations.
+The importance of the Siben score for HIE lies in the
+fact that it is a clinical score that is easy to conduct. Below,
+we will describe an algorithm with measures to evaluate
+and manage newborns based on their resulting score. Obviously, the need for resuscitation with or without cardiac
+massage, the need for access to central vessels, mechanical
+ventilation, and drugs will be undertaken according to the
+general conditions of the newborn and according to the
+protocols used, as well as the provision of the general basic
+required by the newborn. The pH and/or excess base obtained in the umbilical cord blood or soon after birth may
+be useful, but not always available. A pH < 7.1 and/or BE
+> -14 has an acceptable positive predictive value; however,
+they are not pathognomonic of HIE. A pH and/or BE close
+to normal does not have negative predictive value. Therefore,
+if the clinical score demonstrates moderate or severe degree,
+TABLE 2 Clinical alterations compatible with HIE.
+n (%) Magnetic resonance imaging with more than
+7 days of life (n=19)
+n (%)
+Lethargy
+Stupor/Coma
+18 (69.2%)
+5 (19.2%)
+Mild distal flexion
+Marked distal flexion
+Decerebration
+9 (34.6%)
+12 (46.15%)
+5 (19.2%)
+Normal 6 (31.5%)
+Hypotonia
+Flaccidity
+16 (61.5%)
+10 (38.4%)
+Changes in the basal ganglia 10 (52.63%)
+Weak suction
+No suction
+18 (69.2%)
+8 (30.7%)
+Alterations to the gray matter 3 (15.78%)
+Weak Moro reflex
+No Moro reflex
+19 (73.07%)
+7 (26.9%)
+Pupils mydriasis/miosis
+Non-reactive pupils
+20 (76.9%)
+6 (23.07%)
+Bradycardia
+Bradycardia/Tachycardia
+14 (53.8%)
+12 (46.15%)
+Periodic respiration
+Apnea
+20 (76.9%)
+6 (23.07%)
+Convulsions 14 (53.8%)
+HIE: hypoxic ischemic encephalopathy.
+Perez JMR et al.
+68 Rev Assoc Med Bras 2017; 63(1):64-69
+FIGURE 1 The flowchart summarizes the basic preventive and therapeutic measures of the Siben Neurological Score.
+HIE: hypoxic ischemic encephalopathy; CPK: creatine phosphokinase; LDH: lactic dehydrogenase; NICU: neonatal intensive care unit.
+this should not be ignored even with a pH > 7.1. Similarly
+the CPK and LDH dosages have no prognostic value and
+are not useful, in isolation, for a therapeutic decision. Furthermore, the laboratory results of enzymes may not be
+available or it may take several hours to obtain these results.
+The flowchart can guide the management of newborns
+with clinical symptoms compatible with that described,
+facilitating treatment (Figure 1).
+Treatment
+To prevent hypocapnia (cerebral hypoflow) or hypercapnia
+(cerebral hyperflow) during mechanical ventilation. To prevent hyperthermia (accelerates the phenomenon of neuronal
+apoptosis) and hyperoxemia (causes oxidative stress), increasing the risk of neuronal damage. To correct any occasional
+metabolic disturbances (hypocalcemia, hypoglycemia, and
+hypomagnesemia) that can worsen the clinical condition.
+Apgar 1’ ≤ 3
+Neonatologist identifies possible
+hypoxic ischemic insult
+After Apgar 10’:
+Siben Neurological Score
+Apgar 1’/5’/10’ = 3-5 Apgar 1’/5’/10’ > 5
+Siben Neurological Score with 3
+points or more for moderate or
+severe HIE
+Observation and basic
+general measures
+Siben Neurological Score every
+2-3 hours healthy newborn or
+mild HIE
+Siben Neurological Score with
+normal newborn or 3 points or
+more for mild HIE
+Siben Neurological Score
+worsens with 3 points or more
+for moderate or severe HIE
+Send to NICU
+Avoid hyperthermia and begin general preventive and
+therapeutic measures without delay:
+• Collect umbilical cord blood gasometry
+• Collect CPK and LDH
+IF pH < 7.1; high CPK and LDH:
+• Sedation
+• Mechanical ventilation
+• Central venous access
+• Prepare for therapeutic hypothermia
+If repeated score presents 3 points or more
+for moderate or severe HIE, prepare for
+therapeutic hypothermia
+Clinical hypoxic-ischemic encephalopathy score of the Iberoamerican Society of Neonatology (Siben): A new proposal for diagnosis and management
+Rev Assoc Med Bras 2017; 63(1):64-69 69
+Therapeutic hypothermia is a therapeutic strategy with
+scientifically proven benefits. However, the disparity of the
+effectiveness of this therapy in developed and poor and/or
+developing countries is clear,13 demonstrating advantages
+in the use of equipment with Servo control and the supply
+of heat by convection.14
+In three studies already published,15,16 we have presented an alternative to the use of a device developed in
+São Paulo (Brazil), the Neonatflow, with Servo control
+and supply of heat by convection, as well as humidity and
+isolation through the laminar flow system. We believe
+that this device facilitates the treatment of these patients,
+especially in poor and/or developing countries, where the
+incidence of HIE is highest.
+The basic measures to be adopted in a patient with a
+diagnosis of moderate or severe HIE based on the Siben
+score will initially be to avoid hyperthermia, by turning off
+the radiant heat cradle or the incubator or adjusting the
+desired central temperature by servo control if using the
+Neonatflow in order to maintain the central temperature
+between 33-34ºC for 72 hours. With regard to the ventilatory part, prevent hypoxia and hyperoxia, hypocapnia and
+hypercapnia, promote continuous sedation through central
+venous access, bladder catheterization and installation of
+the EEG, if available.
+Conclusion
+The use of this clinical score can improve the objectivity
+of the assessment and monitoring of newborns and the
+early start of treatment. The use of the Siben Neurological Score proved to be easy to implement and provided a
+more objective and early diagnosis of HIE. It may be of
+greater value in poor and/or developing countries, or in
+neonatal units without access to high-cost diagnostic
+examinations (imaging, laboratory, and others).
+Conflict of interest
+José Maria Rodriguez Perez is one of the patent holders
+of the Neonatflow device.
+Resumo
+Escore clínico de encefalopatia hipóxico-isquêmica da
+Sociedad Iberoamericana de Neonatología (Siben): uma
+nova proposta para seu diagnóstico e manejo perinatal
+A encefalopatia hipóxico-isquêmica é a principal complicação da asfixia perinatal, com alta morbidade, mortalidade e incidência de sequelas neurológicas, como a
+paralisia cerebral, principalmente em países pobres e/ou
+em desenvolvimento. Nessas regiões, as dificuldades no
+diagnóstico e no manejo desses recém-nascidos é surpreendente, o que resulta em dados pouco confiáveis e
+em péssimos desfechos tanto no que se refere à mortalidade como à incidência de sequelas neurológicas. O
+objetivo deste artigo é apresentar um novo escore para
+o diagnóstico clínico ser iniciado na sala de parto e uma
+abordagem terapêutica com o intuito de melhorar esses
+resultados.
+Palavras-chave: asfixia, encefalopatia hipóxico-isquêmica,
+Escore Neurológico Siben.
+References
+1. Perez JMR, Feldman A, Alpan G. Treating hypoxic ischemic encephalopathy
+with hypothermia. NeoReviews. 2015; 16(7):e413-9.
+2. Kinsella JP, Abman SH. Recent developments in the pathophysiology and
+treatment of persistent pulmonary hypertension of the newborn. J Pediatr.
+1995; 126(6):853-64.
+3. Rowe RD, Hoffman T. Transient myocardial ischemia of the newborn infant:
+a form of severe cardiorespiratory distress in full-term infants. J Pediatr.
+1972; 81(2):243-50.
+4. Collins JE, Leonard JV. Hyperinsulinism in asphyxiated and small-for-dates
+infants with hypoglycaemia. Lancet. 1984; 2(8398):311-3.
+5. Tsang RC, Chen IW, Hayes W, Atkison W, Atherton H, Edwards N. Neonatal
+hypocalcemia in infants with birth asphyxia. J Pediatr. 1974; 84(3):428-33.
+6. Lawn J, Shibuya K, Stein C. No cry at birth: global estimates of intrapartum
+stillbirths and intrapartum-related neonatal deaths. Bull World Health
+Organ. 2005; 83(6):409-17.
+7. Almeida MFB, Guinsburg R, Santos RM, Moreira LMO, Anchieta LM, Daripa
+M; Coordenadores Estaduais do Programa de Reanimação Neonatal da SBP.
+Brasil, 2005 e 2006: cinco recém-nascidos a termo sem malformações
+congênitas morrem com asfixia ao nascer a cada dia. In: XX Congresso
+Brasileiro de Perinatologia; 2010 Nov 21-24; Rio de Janeiro, RJ.
+8. Perez JMR. Correlation between Apgar score and hipoxic-ischemic
+encephalopathy. Correspondence. Rev Assoc Med Bras. 2015; 61(3):1.
+9. Sarnat HB, Sarnat MS. Neonatal encephalopathy following fetal distress.
+Obstet Gynecol Surv. 1977; 32(5):295.
+10. Thompson CM, Puterman AS, Linley LL, Hann FM, van der Elst CW, Molteno
+CD, et al. The value of a scoring system for hypoxic ischaemic encephalopathy in
+predicting neurodevelopmental outcome. Acta Paediatrica. 1997; 86(7):757-61.
+11. Martín-Ancel A, García-Alix A, Gayá F, Cabañas F, Burqueros M, Quero J. Multiple
+organ involvement in perinatal asphyxia. J Pediatr. 1995; 127(5):786-93.
+12. Gagne-Loranger M, Sheppard M, Ali N, Saint-Martin C, Wintermark P.
+Newborns referred for therapeutic hypothermia: association between initial
+degree of encephalopathy and severity of brain injury (what about the
+newborns with mild encephalopathy on admission?). Am J Perinatol. 2015;
+33(2):195-202.
+13. Montaldo P, Pauliah SS, Lally P, Olson L, Thayyil S. Cooling in a low-resource
+environment: lost in translation. Semin Fetal Neonatal Med. 2015; 20(2):72-9.
+14. Perez JMR, Golombek S, Alpan G, Fajardo CA, Sola A. Comparison of
+hypothermia for hypoxic-ischemic encephalopathy with a laminar flow unit
+(neonatflow) vs. NICHD trial. Vancouver: Pediatric Academic Society; 2014.
+15. Perez JMR, Golombek S, Fajardo C, Sola A. A laminar flow unit for the care
+of critically ill newborn infants. Med Devices (Auckl). 2013; 6:163-7.
+16. Perez JMR, Golombek S, Alpan G, Sola A. Using a novel laminar flow unit
+provided effective total body hypothermia for neonatal hypoxic
+encephalopathy. Acta Pediatr. 2015; 104(11):e483-8.

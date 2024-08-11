@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+langchain
+langchain-community
+langchain-openai
+langchain_core
+chainlit
+pydantic
+uuid
+pandas
+openpyxl
+# Add any other packages your application needs

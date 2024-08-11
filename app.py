@@ -1,43 +1,18 @@
-from langchain.schema.runnable.config import RunnableConfig
-cb = cl.AsyncLangchainCallbackHandler(stream_final_answer=True)
-config = RunnableConfig(callbacks=[cb])
-result = await agent.ainvoke(input, config=config)
-
-from langchain.chat_models import ChatOpenAI
-from langchain.prompts import ChatPromptTemplate
-from langchain.schema import StrOutputParser
-from langchain.schema.runnable import Runnable
-from langchain.schema.runnable.config import RunnableConfig
-
 import chainlit as cl
-
+import requests  # Import requests to make HTTP calls to your FastAPI backend
 
 @cl.on_chat_start
-async def on_chat_start():
-    model = ChatOpenAI(streaming=True)
-    prompt = ChatPromptTemplate.from_messages(
-        [
-            (
-                "system",
-                "You're a very knowledgeable historian who provides accurate and eloquent answers to historical questions.",
-            ),
-            ("human", "{question}"),
-        ]
-    )
-    runnable = prompt | model | StrOutputParser()
-    cl.user_session.set("runnable", runnable)
-
+async def start_chat():
+    # This is the initial message to the user
+    await cl.Message(content="Welcome! Please type your query:").send()
 
 @cl.on_message
-async def on_message(message: cl.Message):
-    runnable = cl.user_session.get("runnable")  # type: Runnable
-
-    msg = cl.Message(content="")
-
-    async for chunk in runnable.astream(
-        {"question": message.content},
-        config=RunnableConfig(callbacks=[cl.LangchainCallbackHandler()]),
-    ):
-        await msg.stream_token(chunk)
-
-    await msg.send()
+async def handle_message(message: cl.Message):
+    # Send user input to FastAPI backend and await the response
+    response = requests.post('http://localhost:8000/query/', json={"query": message.content})
+    # Assume the response from the backend is JSON with a 'response' key
+    if response.status_code == 200:
+        backend_response = response.json()['response']
+        await cl.Message(content=backend_response).send()
+    else:
+        await cl.Message(content="Sorry, there was an error processing your request.").send()
