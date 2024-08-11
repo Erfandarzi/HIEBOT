@@ -43,23 +43,22 @@ def invoke_agent(agent_executor):
         Calculate the odds ratio for poor outcomes (defined as MRI score > 2)
         based on cord blood pH levels'''
     })
-    # Extracting the first SQL query from the response (simulated here; adapt as necessary)
-    sql_query = extract_sql_query(str(response))
-    return response, sql_query
-
+    # Assuming response is a structured object; adapt extraction based on actual response format
+    response_text = str(response)  # Convert response to string if necessary
+    sql_query = extract_sql_query(response_text)
+    return response_text, sql_query
 
 def extract_sql_query(response_text):
-    # Regex to capture SQL blocks enclosed within markdown code fences with the `sql` identifier
-    pattern = r"```sql(.*?)```"
-    matches = re.findall(pattern, response_text, re.DOTALL)
-    if matches:
-        return matches[0].strip()  # Return the first match, strip any excess whitespace
+    match = re.search(r"(SELECT .*?;)", response_text, re.S)
+    if match:
+        return match.group(1)
     return "No SQL Query Found"
 
 def run_experiment(options, exp_name, option_name, fixed_model, fixed_agent_type, fixed_top_k, fixed_max_iterations, fixed_max_execution_time):
     db, _ = setup_db("Chinook.db")
     results = []
     for option in options:
+        max_execution = fixed_max_execution_time if exp_name != 'max_execution_time_comparison' else option
         if exp_name == 'llm_comparison':
             llm, _ = setup_llm_instance(option)
         else:
@@ -68,27 +67,34 @@ def run_experiment(options, exp_name, option_name, fixed_model, fixed_agent_type
         agent, _ = create_agent(llm, db, agent_type=fixed_agent_type if exp_name != 'agent_type_comparison' else option,
                                 top_k=fixed_top_k if exp_name != 'top_k_comparison' else option,
                                 max_iterations=fixed_max_iterations if exp_name != 'max_iterations_comparison' else option,
-                                max_execution_time=fixed_max_execution_time if exp_name != 'max_execution_time_comparison' else option)
-        (_, duration), sql_query = invoke_agent(agent)
+                                max_execution_time=max_execution)
+        response_text, sql_query = invoke_agent(agent)
         results.append({
             option_name: option,
-            'Execution Time (s)': duration,
+            'Max Execution Time (s)': max_execution,
+            'Response': response_text,
             'Extracted SQL': sql_query
         })
 
     df = pd.DataFrame(results)
     df.to_csv(f'{exp_name}.csv', index=False)
 
+ 
+
 def main():
     models = ['gpt-4o', 'gpt-4o-mini']
     agent_types = ['openai-tools', 'tool-calling']
     top_ks = [10, 50, 100]
     max_iterations = [10, 50, 100]
-    max_execution_times = [10, 20, 30]  # in seconds
+    max_execution_times = [10, 20, 30]
 
-    # Uncomment the desired experiment
+    # Run LLM comparison experiment
     run_experiment(models, 'llm_comparison', 'Model', models[0], agent_types[0], top_ks[0], max_iterations[0], None)
     # Additional experiments can be uncommented as needed
+    # run_experiment(agent_types, 'agent_type_comparison', 'Agent Type', models[0], agent_types[0], top_ks[0], max_iterations[0], None)
+    # run_experiment(top_ks, 'top_k_comparison', 'Top K', models[0], agent_types[0], top_ks[0], max_iterations[0], None)
+    # run_experiment(max_iterations, 'max_iterations_comparison', 'Max Iterations', models[0], agent_types[0], top_ks[0], max_iterations[0], None)
+    # run_experiment(max_execution_times, 'max_execution_time_comparison', 'Max Execution Time', models[0], agent_types[0], top_ks[0], max_iterations[0], None)
 
 if __name__ == "__main__":
     main()
