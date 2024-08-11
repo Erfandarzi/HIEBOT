@@ -1,3 +1,3 @@
-Model,Execution Time (s)
-gpt-4o,81.3248541355133
-gpt-4o-mini,105.38493204116821
+Model,Execution Time (s),Extracted SQL
+gpt-4o,No SQL Query Found,80.36992001533508
+gpt-4o-mini,No SQL Query Found,33.553706884384155
