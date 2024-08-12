@@ -76,22 +76,31 @@ def extract_sql_query(response_text):
 def extract_errors(response_text):
     matches = list(re.finditer(r"#errors:(\d+)", response_text))
     return int(matches[-1].group(1)) if matches else 0
-
 def run_experiment(options, exp_name, option_name, fixed_model, fixed_agent_type, fixed_top_k, fixed_max_iterations, fixed_max_execution_time, num_runs=1):
     db, _ = setup_db("Chinook.db")
     results = []
     
     for option in options:
         for run in range(num_runs):
-            llm, llm_setup_time = setup_llm_instance(option)
+            if exp_name == 'llm_comparison':
+                model = option
+            else:
+                model = fixed_model
+
+            llm, llm_setup_time = setup_llm_instance(model)
+
+            agent_type = option if exp_name == 'agent_type_comparison' else fixed_agent_type
+            top_k = option if exp_name == 'top_k_comparison' else fixed_top_k
+            max_iterations = option if exp_name == 'max_iterations_comparison' else fixed_max_iterations
+            max_execution_time = option if exp_name == 'max_execution_time_comparison' else fixed_max_execution_time
 
             (agent, counter_db), agent_setup_time = create_agent(
                 llm, 
                 db, 
-                agent_type=fixed_agent_type,
-                top_k=fixed_top_k,
-                max_iterations=fixed_max_iterations,
-                max_execution_time=fixed_max_execution_time
+                agent_type=agent_type,
+                top_k=top_k,
+                max_iterations=max_iterations,
+                max_execution_time=max_execution_time
             )
             
             (response_text, sql_query, num_errors), execution_time = invoke_agent_(agent)
@@ -100,11 +109,11 @@ def run_experiment(options, exp_name, option_name, fixed_model, fixed_agent_type
                 'Experiment': exp_name,
                 'Run': run + 1,
                 option_name: option,
-                'Model': option,
-                'Agent Type': fixed_agent_type,
-                'Top K': fixed_top_k,
-                'Max Iterations': fixed_max_iterations,
-                'Max Execution Time (s)': fixed_max_execution_time,
+                'Model': model,
+                'Agent Type': agent_type,
+                'Top K': top_k,
+                'Max Iterations': max_iterations,
+                'Max Execution Time (s)': max_execution_time,
                 'LLM Setup Time (s)': llm_setup_time,
                 'Agent Setup Time (s)': agent_setup_time,
                 'Execution Time (s)': execution_time,
@@ -134,6 +143,7 @@ def run_experiment(options, exp_name, option_name, fixed_model, fixed_agent_type
         else:
             # Append without headers if they already match
             df.to_csv(file_path, mode='a', index=False, header=False)
+
 def calculate_sql_complexity(sql_query):
     if sql_query == "No SQL Query Found":
         return 0
@@ -155,10 +165,10 @@ def main():
 
     # Run all experiments
     run_experiment(models, 'llm_comparison', 'Model', models[0], agent_types[0], top_ks[0], max_iterations[0], None)
-    # run_experiment(agent_types, 'agent_type_comparison', 'Agent Type', models[0], agent_types[0], top_ks[0], max_iterations[0], None)
-    # run_experiment(top_ks, 'top_k_comparison', 'Top K', models[0], agent_types[0], top_ks[0], max_iterations[0], None)
-    # run_experiment(max_iterations, 'max_iterations_comparison', 'Max Iterations', models[0], agent_types[0], top_ks[0], max_iterations[0], None)
-    # run_experiment(max_execution_times, 'max_execution_time_comparison', 'Max Execution Time', models[0], agent_types[0], top_ks[0], max_iterations[0], None)
+    run_experiment(agent_types, 'agent_type_comparison', 'Agent Type', models[0], agent_types[0], top_ks[0], max_iterations[0], None)
+    run_experiment(top_ks, 'top_k_comparison', 'Top K', models[0], agent_types[0], top_ks[0], max_iterations[0], None)
+    run_experiment(max_iterations, 'max_iterations_comparison', 'Max Iterations', models[0], agent_types[0], top_ks[0], max_iterations[0], None)
+    run_experiment(max_execution_times, 'max_execution_time_comparison', 'Max Execution Time', models[0], agent_types[0], top_ks[0], max_iterations[0], None)
 
 if __name__ == "__main__":
     main()
